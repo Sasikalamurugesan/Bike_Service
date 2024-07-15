@@ -65,27 +65,50 @@ CARTRABBIT/
 │   │   │   ├── Cards.js
 
 │   │   │   ├── CustomerBooking.js
+
 │   │   │   ├── CustomerDetails.js
+
 │   │   │   ├── CustomerNavbar.js
+
 │   │   │   ├── CustomerView.js
+
 │   │   │   ├── Home.js
+
 │   │   │   ├── Login.js
+
 │   │   │   ├── Navbar.js
+
 │   │   │   ├── OwnerBooking.js
+
 │   │   │   ├── OwnerDetails.js
+
 │   │   │   ├── OwnerNavbar.js
+
 │   │   │   ├── OwnerProfile.js
+
 │   │   │   ├── OwnerProfileDetails.js
+
 │   │   │   └── OwnerRegister.js
+
+
 │   │   ├── App.js
+
 │   │   ├── index.js
+
 │   │   └── styles/
+
 │   │       └── ...
+
 │   ├── package.json
+
 │   ├── package-lock.json
+
 │   └── node_modules/
+
 │       └── ...
+
 ├── README.md
+
 └── .gitignore
 
 
@@ -98,9 +121,6 @@ CARTRABBIT/
 
 
 
-checkOut:2024-07-31T00:00:00.000+00:00
-
-Page 5 of 9
 
 
 
