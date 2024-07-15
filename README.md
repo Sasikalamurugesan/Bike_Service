@@ -127,9 +127,19 @@ CARTRABBIT/
 
 1. **Install the dependencies:**
      npm install
-2. **Start the frontend development server**:
+
+     npm install react react-dom
+
+     npm install axios
+
+     npm install react-toastify
+
+     npm install --save @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core
+
+
+3. **Start the frontend development server**:
      npm start
-3. **Access the frontend application**:
+4. **Access the frontend application**:
      Open your web browser and navigate to http://localhost:3000.
 
 ## Backend
@@ -141,11 +151,28 @@ CARTRABBIT/
 2. **Install the dependencies:**
 
    npm install express
+
+   npm install mongoose
+
+   npm install cors
+
+   npm install bcrypt
+
+   npm install body-parser
+
+   npm install nodemailer
+
+   npm install dotenv
+
+   npm install jsonwebtoken
+
+ 
+
    
-3. **Start the backend server**:
+4. **Start the backend server**:
     node Server.js
    
-4. **Backend API**:
+5. **Backend API**:
    
    The backend server will be running at http://localhost:5000 (or the port specified in your configuration).
 
