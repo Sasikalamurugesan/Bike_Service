@@ -1,0 +1,22 @@
+.booking-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .booking-item {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); 
+  }
+  
+  .booking-details {
+    margin-bottom: 10px;
+  }
+  
+  .booking-details p {
+    margin: 5px 0;
+  }
+  

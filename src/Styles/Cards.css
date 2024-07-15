@@ -1,0 +1,42 @@
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .card {
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .card h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  .card-logo {
+    width: 80px; 
+    height: 80px; 
+    margin-right: 20px;
+  }
+  

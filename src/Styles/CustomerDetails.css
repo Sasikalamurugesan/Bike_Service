@@ -1,0 +1,70 @@
+
+.customer-profile-card {
+  max-width: 400px;
+  margin: 50px auto; 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 6px 20px rgba(0, 0, 0, 0.19);
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); 
+  text-align: center; 
+  transition: transform 0.3s ease;
+}
+
+.customer-profile-card:hover {
+  transform: translateY(-10px); 
+}
+
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-bottom: 20px; 
+  border: 5px solid #ffffff; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.1); 
+}
+
+
+.profile-details {
+  text-align: left; 
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.profile-details p {
+  margin: 10px 0; 
+  font-size: 16px;
+  color: #333;
+}
+
+.profile-details p strong {
+  color: #000;
+}
+
+
+.Toastify__toast-container {
+  z-index: 10000;
+}
+
+.customer-profile-card h2 {
+  font-size: 24px;
+  color: #ffffff; 
+  margin-bottom: 20px;
+}
+
+
+.profile-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background: #bcdee7; 
+}

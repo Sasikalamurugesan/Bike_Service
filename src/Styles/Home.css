@@ -1,0 +1,41 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-vector/motorcycle-repair-maintenance-service_1150-43150.jpg?t=st=1720793582~exp=1720797182~hmac=2e576b0e466ca903d752a76b41e66b878f3fc77c5721c50dc90b4493b4e0001a&w=1380'); /* Adjust the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  color: rgb(241, 232, 232);
+  text-align: center;
+  margin-top: -200px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.quote-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.quote-container p {
+  font-size: 1.5rem;
+  margin: 0;
+}

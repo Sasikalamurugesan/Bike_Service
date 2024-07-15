@@ -1,0 +1,94 @@
+.owner-services {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .owner-services h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .service-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .service-card p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .icon-button.edit-button {
+    color: #007bff;
+  }
+  
+  .icon-button.save-button {
+    color: #28a745;
+  }
+  
+  .icon-button.cancel-button {
+    color: #dc3545;
+  }
+  
+  .icon-button.delete-button {
+    color: #dc3545;
+  }
+  
+  .add-service {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .add-service .icon-button {
+    background: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px; 
+    width: auto; 
+  }
+  
+  .add-service .icon-button:hover {
+    background: #0056b3;
+  }
+  
+  .add-service input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .add-service input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .add-service .icon-button.save-button,
+  .add-service .icon-button.cancel-button {
+    margin-left: 10px;
+  }
+  

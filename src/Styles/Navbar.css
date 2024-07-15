@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#fbfae1;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-text
+{
+   margin-left: -1000px;
+   font-family: ui-rounded;
+   color:antiquewhite
+}
+
+.logo-image {
+  height: 50px; 
+  margin-right: 10px;
+}
+.logo-text
+{
+  color:white;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: ui-rounded;
+}
+
+
+ 
