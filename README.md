@@ -49,14 +49,21 @@ CARTRABBIT/
 │   └── node_modules/
 
 │       └── ...
+
 ├── frontend/
+
 │   ├── public/
+
 │   │   └── ...
+
 │   ├── src/
-│   │   ├── Components/
-│   │   │   ├── axiosInstance.js
+
+│   │   ├── Components
+
 │   │   │   ├── BookingForm.js
+
 │   │   │   ├── Cards.js
+
 │   │   │   ├── CustomerBooking.js
 │   │   │   ├── CustomerDetails.js
 │   │   │   ├── CustomerNavbar.js
