@@ -39,10 +39,15 @@ they offer. Customers can choose one or more services to book and recieve an ema
 
 ## Project Structure
 CARTRABBIT/
+
 ├── backend/
+
 │   ├── .env
+
 │   ├── server.js
+
 │   └── node_modules/
+
 │       └── ...
 ├── frontend/
 │   ├── public/
