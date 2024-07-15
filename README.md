@@ -23,8 +23,8 @@ they offer. Customers can choose one or more services to book and recieve an ema
 ## Features
 
 - **Bike Station Owners:**
-- Should be able to create / edit / delete all his services and their details -
-- View a list of all bookings ( pending, ready for delivery and completed) -
+- Should be able to create / edit / delete all his services and their details 
+- View a list of all bookings ( pending, ready for delivery and completed) 
 - View details of each booking
 - Mark a booking as ready for delivery
 - Mark a booking as completed
@@ -436,7 +436,8 @@ customerId:6694a8420b446b16dfd14c80
 
 ![image](https://github.com/user-attachments/assets/9e518b90-8438-450a-b36a-4c3cf606e779)
 
-                                                                                             **Thank You**
+ 
+   **Thank You**
 
 
 
