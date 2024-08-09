@@ -26,7 +26,7 @@ const CustomerBooking = () => {
         setBookings(bookingsWithStatus);
       } catch (error) {
         console.error('Error fetching bookings:', error);
-        toast.error('Failed to fetch bookings. Please try again.');xd
+        toast.error('Failed to fetch bookings. Please try again.');
       }
     };
 
