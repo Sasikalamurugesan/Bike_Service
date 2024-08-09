@@ -20,7 +20,7 @@ const CustomerDetails = () => {
       if (!userId) {
         throw new Error('User ID not found in localStorage');
       }
-      const response = await axios.get('http://localhost:5000/api/get-customer-details', {
+      const response = await axios.get('https://bike-service-5q78.onrender.com/api/get-customer-details', {
         headers: {
           userid: userId,
         },

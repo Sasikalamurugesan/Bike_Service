@@ -14,6 +14,7 @@ import OwnerServices from './Components/OwnerServices';
 import CustomerDetails from './Components/CustomerDetails';
 import Cards from './Components/Cards';
 import OwnerDetails from './Components/OwnerDetails';
+import Footer from './Components/Footer';
 const App = () => {
   return (
     <Router>
@@ -35,6 +36,7 @@ const App = () => {
         <Route path="/customer-details" element={<CustomerDetails />} />
         <Route path="/Cards" element={<Cards />} />
         <Route path="/owner-details" element={<OwnerDetails />} />
+        <Route path="/footer" element={<Footer/>} />
         
       </Routes>
     </Router>

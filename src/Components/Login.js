@@ -12,14 +12,14 @@ import '../Styles/Login.css';
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [userType, setUserType] = useState('customer'); // Default to customer
+  const [userType, setUserType] = useState('customer'); 
   const [message, setMessage] = useState('');
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/login', {
+      const response = await axios.post('https://bike-service-5q78.onrender.com/api/login', {
         email,
         password,
         userType, 
@@ -73,7 +73,7 @@ const Login = () => {
         
         console.error('Request data:', error.request);
       } else {
-        // Something happened in setting up the request that triggered an error
+
         console.error('Error message:', error.message);
       }
 
@@ -89,11 +89,11 @@ const Login = () => {
         <div className="login-left">
           <h2>Login</h2>
           <form onSubmit={handleLogin}>
-            <div className="form-group">
-              <div className="input-container">
+            <div className="lform-group">
+              <div className="linput-container">
                 <FontAwesomeIcon icon={faEnvelope} className="input-icon" />
                 <input
-                style={{width:'350px'}}
+                // style={{width:'350px'}}
                   type="email"
                   placeholder="Email"
                   value={email}
@@ -102,10 +102,11 @@ const Login = () => {
                 />
               </div>
             </div>
-            <div className="form-group">
-              <div className="input-container">
+            <div className="lform-group">
+              <div className="linput-container">
                 <FontAwesomeIcon icon={faLock} className="input-icon" />
                 <input
+                  // style={{width:'350px'}}
                   type="password"
                   placeholder="Password"
                   value={password}
@@ -119,7 +120,8 @@ const Login = () => {
               <select
                 id="userType"
                 value={userType}
-                style={{width:'350px',padding:'10px'}}
+                style={{width:'320px'}}
+                
                 onChange={(e) => setUserType(e.target.value)}
               >
                 <option value="customer">Customer</option>

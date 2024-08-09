@@ -19,7 +19,7 @@ const CustomerBooking = () => {
   const fetchBookings = async () => {
     try {
       const userId = localStorage.getItem('userId'); 
-      const response = await axios.get(`http://localhost:5000/api/bookings/${userId}`);
+      const response = await axios.get(`https://bike-service-5q78.onrender.com/api/bookings/${userId}`);
 
       const filteredBookings = response.data.filter(booking => booking.ownerId === userId);
 
@@ -32,14 +32,14 @@ const CustomerBooking = () => {
 // Function to update booking status
   const updateBookingStatus = async (bookingId, newStatus) => {
     try {
-      const response = await axios.put(`http://localhost:5000/api/bookings/${bookingId}/status`, { status: newStatus });
+      const response = await axios.put(`https://bike-service-5q78.onrender.com/api/bookings/${bookingId}/status`, { status: newStatus });
       if (response.data.success) {
         toast.success('Booking status updated successfully!');
 
        
         if (newStatus === 'Ready') {
           await axios.post(
-            'http://localhost:5000/api/send-ready-email',
+            'https://bike-service-5q78.onrender.com/api/send-ready-email',
             { bookingId }
           );
         }

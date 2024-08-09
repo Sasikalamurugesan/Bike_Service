@@ -33,7 +33,7 @@ const CustomerView = () => {
   useEffect(() => {
     const fetchOwnersDetails = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/get-all-owner-details');
+        const response = await axios.get('https://bike-service-5q78.onrender.com/api/get-all-owner-details');
         setOwnersDetails(response.data);
       } catch (error) {
         console.error('Error fetching owners details:', error);

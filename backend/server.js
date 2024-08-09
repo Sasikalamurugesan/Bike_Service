@@ -113,6 +113,8 @@ const serviceSchema = new Schema({
 });
 const Service = mongoose.model('Service', serviceSchema);
 
+
+
 //Routes to owner register
 app.post('/api/owner-register', async (req, res) => {
   const { userId, shopName, address, location, services } = req.body;

@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
@@ -15,7 +13,7 @@ const CustomerBooking = () => {
         const userId = localStorage.getItem('userId'); 
         console.log('User ID:', userId); 
 
-        const response = await axios.get(`http://localhost:5000/api/customer/bookings/${userId}`);
+        const response = await axios.get(`https://bike-service-5q78.onrender.com/api/customer/bookings/${userId}`);
         const filteredBookings = response.data.filter(booking => booking.customerId === userId);
         
        
@@ -28,7 +26,7 @@ const CustomerBooking = () => {
         setBookings(bookingsWithStatus);
       } catch (error) {
         console.error('Error fetching bookings:', error);
-        toast.error('Failed to fetch bookings. Please try again.');
+        toast.error('Failed to fetch bookings. Please try again.');xd
       }
     };
 

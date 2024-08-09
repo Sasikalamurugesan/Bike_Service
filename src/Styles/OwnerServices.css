@@ -40,19 +40,19 @@
   }
   
   .icon-button.edit-button {
-    color: #007bff;
+    color:black;
   }
   
   .icon-button.save-button {
-    color: #28a745;
+    color: black;
   }
   
   .icon-button.cancel-button {
-    color: #dc3545;
+    color: black;
   }
   
   .icon-button.delete-button {
-    color: #dc3545;
+    color: black;
   }
   
   .add-service {
@@ -61,7 +61,7 @@
   }
   
   .add-service .icon-button {
-    background: #007bff;
+    background: black;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -72,7 +72,7 @@
   }
   
   .add-service .icon-button:hover {
-    background: #0056b3;
+    background: black;
   }
   
   .add-service input {
@@ -84,7 +84,7 @@
   
   .add-service input:focus {
     outline: none;
-    border-color: #007bff;
+    border-color:black;
   }
   
   .add-service .icon-button.save-button,

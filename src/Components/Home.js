@@ -1,8 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom for navigation
+import { useNavigate } from 'react-router-dom'; 
 import '../Styles/Home.css';
 import Navbar from './Navbar'; 
 import Cards from './Cards';
+import Footer from './Footer';
 
 const Home = () => {
   // Initialize useNavigate hook
@@ -30,6 +31,7 @@ const Home = () => {
         </div>
       </div>
       <Cards />
+      
     </div>
   );
 };

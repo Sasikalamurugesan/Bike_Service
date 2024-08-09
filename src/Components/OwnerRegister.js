@@ -60,7 +60,7 @@ const OwnerRegister = () => {
   const handleOwnerRegister = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/owner-register', {
+      const response = await axios.post('https://bike-service-5q78.onrender.com/api/owner-register', {
         userId,
         shopName,
         address,

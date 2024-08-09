@@ -25,7 +25,7 @@ const OwnerServices = () => {
       if (!userId) {
         throw new Error('User ID not found in localStorage');
       }
-      const response = await axios.get('http://localhost:5000/api/get-owner-details', {
+      const response = await axios.get('https://bike-service-5q78.onrender.com/api/get-owner-details', {
         headers: {
           userid: userId,
         },
@@ -49,7 +49,7 @@ const OwnerServices = () => {
       if (!userId) {
         throw new Error('User ID not found in localStorage');
       }
-      await axios.put(`http://localhost:5000/api/update-owner/${userId}`, { services: updatedServices });
+      await axios.put(`https://bike-service-5q78.onrender.com/api/update-owner/${userId}`, { services: updatedServices });
       toast.success('Services updated successfully.');
       setEditMode(false);
       setEditingServiceIndex(null);
@@ -84,7 +84,7 @@ const OwnerServices = () => {
         throw new Error('User ID not found in localStorage');
       }
       const updated = updatedServices.filter((_, i) => i !== index);
-      await axios.put(`http://localhost:5000/api/update-owner/${userId}`, { services: updated });
+      await axios.put(`https://bike-service-5q78.onrender.com/api/update-owner/${userId}`, { services: updated });
       toast.success('Service deleted successfully.');
       setServices(updated);
       setUpdatedServices(updated);

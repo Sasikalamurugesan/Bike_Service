@@ -1,6 +1,3 @@
-
-
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../Styles/CustomerDetails.css';
@@ -21,7 +18,7 @@ const OwnerProfileDetails = () => {
       if (!userId) {
         throw new Error('User ID not found in localStorage');
       }
-      const response = await axios.get('http://localhost:5000/api/get-owner-details', {
+      const response = await axios.get('https://bike-service-5q78.onrender.com/api/get-owner-details', {
         headers: {
           userid: userId,
         },
